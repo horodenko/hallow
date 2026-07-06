@@ -72,7 +72,7 @@ Scope: assets needed for the introduction (forest chase → bedroom cut), **plus
 
 **Additional single-pose prompts for the freeze-point sequence** (one static frame each, not spritesheets):
 - **Look at the woman:** "Same figure, facing south (toward the viewer), turned to look at the woman standing beside him, still posture, no walking motion."
-- **Look at the bush:** "Same figure, facing north (away from the viewer), turned to look toward something hidden in the bushes ahead, still posture." *(Assumes the bush sits north of the path — flag it if that's not how you're picturing the layout.)*
+- **Look at the bush:** "Same figure, facing north (away from the viewer), turned to look toward something hidden in the bushes ahead, still posture." *(North placement CONFIRMED 2026-07-06 — the wide intro reference image places the hiding bush on the north side of the path.)*
 - **Look back:** "Same figure, body still facing north as in the look-at-the-bush pose above, but head turned to look back over his shoulder to the left, brief glance, still posture." This is a head-turn variant on the existing north-facing pose — not a new body direction, just the head redirected.
 
 ---
@@ -193,7 +193,7 @@ Front-view only — these are static world objects, no side/back views needed.
 - [ ] Rabbit — front, back, left, right spritesheets + alert pose
 - [ ] Monkey — front, back, left, right spritesheets + alert pose
 - [ ] Fox — front, back, left, right spritesheets + alert pose
-- [~] Environment tileset — **still open, but improving.** Latest candidate (2026-07-06) is 128×128px = a 2×2 grid of 4 tiles at 64×64 — much closer to a real compact atlas than the earlier 24×8 and 12×4 demo canvases, but 4 tiles is still low for a complete minimal terrain set (typically needs more like 9–13 to cover all corner/edge combinations). Need to confirm exactly what those 4 tiles depict before treating this as final.
+- [~] Environment tileset — **resolved what it IS; peering bits still needed.** The "Godot (3×3)" export is the real asset: 768×256 = 48 tiles at 64×64 (clean division). "3×3" refers to Godot's terrain peering-bit *mode*, not a tile count — a complete set legitimately needs this many tiles for all corner/edge/junction combinations. No metadata came with it, so every tile's Terrain + Peering Bits must be assigned by visual inspection in Godot's TileSet editor (Fable first-pass + Daniel spot-check via a small painted test strip). **Still needs adding to the repo** — only the old ambiguous 131×131 single tile is committed as of 2026-07-06. A numbered reference overlay exists (`tileset_48_labeled.png`) for referring to tiles by index; reference only, never a game asset.
 - [x] Bushes — **3 final picks selected 2026-07-06** (down from the 57 raw candidates). **New flag:** the generation prompt used for these three ("true 16-bit fidelity... no smooth gradients, no painterly rendering, no heavy anti-aliasing") is the *discarded* flat-shading wording from the chibi experiment that got reverted — it doesn't match the currently locked Master Style Block above (which allows soft grain / painterly shading, matching Ata's approved look). Worth checking whether these three visually match Ata/the tileset before treating them as final, and likely regenerating with the current correct prompt if not.
 - [x] Tree(s) — 2 delivered (one explicitly "large deciduous tree," one unlabeled)
 - [ ] Simple foliage objects (apples, ferns, etc.) — not present in the delivered zip
