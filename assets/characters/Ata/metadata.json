@@ -1,0 +1,138 @@
+{
+  "group_id": null,
+  "states": [
+    {
+      "character": {
+        "id": "09440eea-8be5-4f6d-a09f-ff66ef027a35",
+        "name": "Ata",
+        "prompt": "Top-down 2D pixel art asset for a narrative indie game, in the style of RPG Maker horror/mystery games like Mad Father, Ib, and The Witch's House. Retro pixel art at roughly 16-bit fidelity, soft grain, slightly aged and cinematic, muted and moody color palette \u2014 not clean, modern, or cartoonish. Strict overhead / high three-quarter top-down camera angle, consistent across all assets, no eye-level perspective. Transparent background if possible (otherwise solid flat magenta background for easy removal later). No text, no watermark, no UI in the image itself. 1. Ata (Protagonist)   **Base description** (use for all views): > A 21-year-old college student, blonde with long hair, brown amber eyes, round glasses. Wears a black long-sleeve shirt underneath a light-blue denim pinafore/jumper dress \u2014 ankle-length, covering her legs entirely (not short like a typical pinafore). Black-and-white low-top Converse-style sneakers. Ordinary, soft, gentle appearance \u2014 not stylized or exaggerated.   **Tone & expression note:** Ata is not depressed, but she is not happy either \u2014 a quiet, uncertain, searching quality, like someone still working out what is real and what isn't. Avoid exaggerated sadness (no drooping posture, no tears, no visible distress) and avoid cheerfulness or brightness in equal measure. This restrained, in-between quality should carry through her posture and stillness in the walking spritesheets, and especially in her expression in the dialogue portrait below. The overall tone of the game is serious and dark, not comic \u2014 nothing about her design should read as lighthearted. Front view: \"facing the viewer, walking toward camera\"",
+        "size": {
+          "width": 124,
+          "height": 124
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "low top-down",
+        "created_at": "2026-07-01T22:45:11.226374+00:00"
+      },
+      "folder": "Ata",
+      "frames": {
+        "rotations": {
+          "south": "Ata/rotations/south.png",
+          "south-east": "Ata/rotations/south-east.png",
+          "east": "Ata/rotations/east.png",
+          "north-east": "Ata/rotations/north-east.png",
+          "north": "Ata/rotations/north.png",
+          "north-west": "Ata/rotations/north-west.png",
+          "west": "Ata/rotations/west.png",
+          "south-west": "Ata/rotations/south-west.png"
+        },
+        "animations": {
+          "Full_side-profile_walk_cycle._Front_leg_steps_forw": {
+            "east": [
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_000.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_001.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_002.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_003.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_004.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_005.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/east/frame_006.png"
+            ],
+            "south": [
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_000.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_001.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_002.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_003.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_004.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_005.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/south/frame_006.png"
+            ],
+            "west": [
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_000.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_001.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_002.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_003.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_004.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_005.png",
+              "Ata/animations/Full_side-profile_walk_cycle._Front_leg_steps_forw/west/frame_006.png"
+            ]
+          },
+          "Idle_in_side_profile._The_breathing_motion_is_most": {
+            "east": [
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_000.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_001.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_002.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_003.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_004.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_005.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/east/frame_006.png"
+            ],
+            "south": [
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_000.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_001.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_002.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_003.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_004.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_005.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/south/frame_006.png"
+            ],
+            "west": [
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_000.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_001.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_002.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_003.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_004.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_005.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/west/frame_006.png"
+            ],
+            "north": [
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_000.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_001.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_002.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_003.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_004.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_005.png",
+              "Ata/animations/Idle_in_side_profile._The_breathing_motion_is_most/north/frame_006.png"
+            ]
+          },
+          "Full_side-profile_sprint_silhouette._Front_leg_dri": {
+            "west": [
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_000.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_001.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_002.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_003.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_004.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/west/frame_005.png"
+            ],
+            "south": [
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_000.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_001.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_002.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_003.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_004.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/south/frame_005.png"
+            ],
+            "east": [
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_000.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_001.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_002.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_003.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_004.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/east/frame_005.png"
+            ],
+            "north": [
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_000.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_001.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_002.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_003.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_004.png",
+              "Ata/animations/Full_side-profile_sprint_silhouette._Front_leg_dri/north/frame_005.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-07-02T02:20:32.303894"
+}

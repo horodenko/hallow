@@ -1,0 +1,22 @@
+{
+  "group_id": null,
+  "objects": [
+    {
+      "id": "d5e9c76c-6b48-41e4-9dc1-54376e448aec",
+      "name": null,
+      "prompt": "\u201cTop-down 2D pixel art asset for a narrative indie game, RPG Maker horror/mystery style, true 16-bit fidelity, crisp pixel edges, limited muted palette, 2\u20133 shading steps per surface, no smooth gradients, no painterly rendering, no heavy anti-aliasing. A dense green forest bush used as a natural barrier along the sides of a straight dirt road. Rounded leafy mass, thick and full, with uneven organic edges and small leaf clusters, readable at game scale. The bush should look healthy and Eden-like, not dead, not thorny, not sinister. It should be dense enough to visually tell the player they cannot walk through it, but still beautiful and natural. High three-quarter top-down view, neutral flat daylight base lighting only, no baked shadow, no glow, no nighttime tint. Transparent background.\u201d\n\n",
+      "size": {
+        "width": 112,
+        "height": 112
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/unknown.png"
+      },
+      "animations": {}
+    }
+  ],
+  "export_version": "1.0",
+  "export_date": "2026-07-06T01:54:46.444793"
+}

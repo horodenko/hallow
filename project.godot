@@ -4,14 +4,13 @@
 ;
 ; Format:
 ;   [section] ; section goes between []
-;   param=value ; assign values to parameters.
+;   param=value ; assign values to parameters
 
 config_version=5
 
 [application]
 
 config/name="Hallowed"
-run/main_scene=""
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 

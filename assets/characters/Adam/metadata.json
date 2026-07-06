@@ -1,0 +1,155 @@
+{
+  "group_id": null,
+  "states": [
+    {
+      "character": {
+        "id": "79d7c08a-c5f7-4ed1-b482-d86c0a58bb6b",
+        "name": "Adam",
+        "prompt": "A small humanoid figure rendered as a completely featureless black silhouette. The figure is not a person wearing black clothing\u2014it is literally a living shadow. Pure near-black with no visible clothing, no skin, no hair texture, no eyes, no face, no mouth, no nose, no ears, no fingers, no anatomical detail, no muscle definition, no accessories, no outline details, and no visible fabric. The only readable information is a simple masculine human silhouette with a head, torso, arms, and legs.\n\nThe silhouette should look like a flat absence of light rather than a detailed character. It is intentionally anonymous and indistinct, like a moving shadow cast into the world. The edges should remain soft and slightly irregular, but the interior should be uniformly dark.\n\nDepict the figure moving urgently through the Garden of Eden at dusk in a top-down RPG Maker-style perspective. Small chibi overworld proportions consistent with the rest of the game, but with absolutely no internal detail\u2014only the silhouette itself. The figure should feel mysterious, archetypal, and symbolic, never monster-like, never demonic, never wearing clothes or armor. It should simply read as \"a man-shaped shadow.\"\n\nDo not generate clothing, armor, robes, capes, belts, boots, gloves, facial features, eyes, mouth, nose, hair strands, skin, muscles, jewelry, weapons, textures, highlights, wrinkles, folds, seams, or any visible details. The figure must be a single solid black silhouette with no readable surface information whatsoever.",
+        "size": {
+          "width": 120,
+          "height": 120
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-07-02T19:08:48.637389+00:00"
+      },
+      "folder": "Adam",
+      "frames": {
+        "rotations": {
+          "south": "Adam/rotations/south.png",
+          "south-east": "Adam/rotations/south-east.png",
+          "east": "Adam/rotations/east.png",
+          "north-east": "Adam/rotations/north-east.png",
+          "north": "Adam/rotations/north.png",
+          "north-west": "Adam/rotations/north-west.png",
+          "west": "Adam/rotations/west.png",
+          "south-west": "Adam/rotations/south-west.png"
+        },
+        "animations": {
+          "Walking": {
+            "south": [
+              "Adam/animations/Walking/south/frame_000.png",
+              "Adam/animations/Walking/south/frame_001.png",
+              "Adam/animations/Walking/south/frame_002.png",
+              "Adam/animations/Walking/south/frame_003.png",
+              "Adam/animations/Walking/south/frame_004.png",
+              "Adam/animations/Walking/south/frame_005.png",
+              "Adam/animations/Walking/south/frame_006.png",
+              "Adam/animations/Walking/south/frame_007.png",
+              "Adam/animations/Walking/south/frame_008.png",
+              "Adam/animations/Walking/south/frame_009.png",
+              "Adam/animations/Walking/south/frame_010.png"
+            ],
+            "east": [
+              "Adam/animations/Walking/east/frame_000.png",
+              "Adam/animations/Walking/east/frame_001.png",
+              "Adam/animations/Walking/east/frame_002.png",
+              "Adam/animations/Walking/east/frame_003.png",
+              "Adam/animations/Walking/east/frame_004.png"
+            ],
+            "north": [
+              "Adam/animations/Walking/north/frame_000.png",
+              "Adam/animations/Walking/north/frame_001.png",
+              "Adam/animations/Walking/north/frame_002.png",
+              "Adam/animations/Walking/north/frame_003.png",
+              "Adam/animations/Walking/north/frame_004.png",
+              "Adam/animations/Walking/north/frame_005.png",
+              "Adam/animations/Walking/north/frame_006.png"
+            ],
+            "west": [
+              "Adam/animations/Walking/west/frame_000.png",
+              "Adam/animations/Walking/west/frame_001.png",
+              "Adam/animations/Walking/west/frame_002.png",
+              "Adam/animations/Walking/west/frame_003.png",
+              "Adam/animations/Walking/west/frame_004.png"
+            ]
+          },
+          "Running_south": {
+            "south": [
+              "Adam/animations/Running_south/south/frame_000.png",
+              "Adam/animations/Running_south/south/frame_001.png",
+              "Adam/animations/Running_south/south/frame_002.png",
+              "Adam/animations/Running_south/south/frame_003.png",
+              "Adam/animations/Running_south/south/frame_004.png",
+              "Adam/animations/Running_south/south/frame_005.png",
+              "Adam/animations/Running_south/south/frame_006.png",
+              "Adam/animations/Running_south/south/frame_007.png",
+              "Adam/animations/Running_south/south/frame_008.png"
+            ]
+          },
+          "Running_remaining_directions": {
+            "east": [
+              "Adam/animations/Running_remaining_directions/east/frame_000.png",
+              "Adam/animations/Running_remaining_directions/east/frame_001.png",
+              "Adam/animations/Running_remaining_directions/east/frame_002.png",
+              "Adam/animations/Running_remaining_directions/east/frame_003.png",
+              "Adam/animations/Running_remaining_directions/east/frame_004.png",
+              "Adam/animations/Running_remaining_directions/east/frame_005.png",
+              "Adam/animations/Running_remaining_directions/east/frame_006.png"
+            ],
+            "west": [
+              "Adam/animations/Running_remaining_directions/west/frame_000.png",
+              "Adam/animations/Running_remaining_directions/west/frame_001.png",
+              "Adam/animations/Running_remaining_directions/west/frame_002.png",
+              "Adam/animations/Running_remaining_directions/west/frame_003.png",
+              "Adam/animations/Running_remaining_directions/west/frame_004.png",
+              "Adam/animations/Running_remaining_directions/west/frame_005.png",
+              "Adam/animations/Running_remaining_directions/west/frame_006.png"
+            ],
+            "north": [
+              "Adam/animations/Running_remaining_directions/north/frame_000.png",
+              "Adam/animations/Running_remaining_directions/north/frame_001.png",
+              "Adam/animations/Running_remaining_directions/north/frame_002.png",
+              "Adam/animations/Running_remaining_directions/north/frame_003.png",
+              "Adam/animations/Running_remaining_directions/north/frame_004.png",
+              "Adam/animations/Running_remaining_directions/north/frame_005.png",
+              "Adam/animations/Running_remaining_directions/north/frame_006.png"
+            ]
+          },
+          "Idle": {
+            "east": [
+              "Adam/animations/Idle/east/frame_000.png",
+              "Adam/animations/Idle/east/frame_001.png",
+              "Adam/animations/Idle/east/frame_002.png",
+              "Adam/animations/Idle/east/frame_003.png",
+              "Adam/animations/Idle/east/frame_004.png",
+              "Adam/animations/Idle/east/frame_005.png",
+              "Adam/animations/Idle/east/frame_006.png"
+            ],
+            "west": [
+              "Adam/animations/Idle/west/frame_000.png",
+              "Adam/animations/Idle/west/frame_001.png",
+              "Adam/animations/Idle/west/frame_002.png",
+              "Adam/animations/Idle/west/frame_003.png",
+              "Adam/animations/Idle/west/frame_004.png",
+              "Adam/animations/Idle/west/frame_005.png",
+              "Adam/animations/Idle/west/frame_006.png"
+            ],
+            "south": [
+              "Adam/animations/Idle/south/frame_000.png",
+              "Adam/animations/Idle/south/frame_001.png",
+              "Adam/animations/Idle/south/frame_002.png",
+              "Adam/animations/Idle/south/frame_003.png",
+              "Adam/animations/Idle/south/frame_004.png",
+              "Adam/animations/Idle/south/frame_005.png",
+              "Adam/animations/Idle/south/frame_006.png"
+            ],
+            "north": [
+              "Adam/animations/Idle/north/frame_000.png",
+              "Adam/animations/Idle/north/frame_001.png",
+              "Adam/animations/Idle/north/frame_002.png",
+              "Adam/animations/Idle/north/frame_003.png",
+              "Adam/animations/Idle/north/frame_004.png",
+              "Adam/animations/Idle/north/frame_005.png",
+              "Adam/animations/Idle/north/frame_006.png"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-07-03T01:29:43.131313"
+}
