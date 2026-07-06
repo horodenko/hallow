@@ -1,14 +1,14 @@
-[gd_scene load_steps=3 format=3]
+[gd_scene format=3 uid="uid://beb0hyhyfblj8"]
 
 [ext_resource type="TileSet" path="res://assets/tiles/forest_path_tileset.tres" id="1_tileset"]
-[ext_resource type="Script" path="res://scripts/TilesetTestStrip.gd" id="2_script"]
+[ext_resource type="Script" uid="uid://cjts10qqdfv8u" path="res://scripts/TilesetTestStrip.gd" id="2_script"]
 
-[node name="TilesetTestStrip" type="Node2D"]
+[node name="TilesetTestStrip" type="Node2D" unique_id=1399812678]
 
-[node name="PathLayer" type="TileMapLayer" parent="."]
+[node name="PathLayer" type="TileMapLayer" parent="." unique_id=100748821]
 tile_set = ExtResource("1_tileset")
 script = ExtResource("2_script")
 
-[node name="Camera" type="Camera2D" parent="."]
+[node name="Camera" type="Camera2D" parent="." unique_id=1442667782]
 position = Vector2(640, 384)
 zoom = Vector2(0.85, 0.85)

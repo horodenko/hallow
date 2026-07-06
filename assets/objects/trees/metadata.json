@@ -1,0 +1,80 @@
+{
+  "objects": [
+    {
+      "id": "2274aea8-6108-47bd-96a5-889f1dc46786",
+      "name": null,
+      "prompt": "Top-down 2D pixel art asset for a narrative indie game, RPG Maker horror/mystery style, true 16-bit fidelity, crisp pixel edges, limited muted palette, 2\u20133 shading steps per surface, no smooth gradients, no painterly rendering, no heavy anti-aliasing. A healthy living tree for an Eden-like forest: broad rounded green canopy made of clustered leaf masses, dense but readable, natural uneven silhouette, not perfectly symmetrical. Thick warm-brown trunk visible below the canopy, splitting into a few simple branches, with subtle exposed roots at the base. The tree should feel alive, peaceful, ancient, and natural, suitable for a beautiful sunlit forest before the chase becomes frightening. High three-quarter top-down view, consistent with RPG Maker overworld assets. Neutral flat daylight base lighting only, no baked sunset, no nighttime shading, no glow, no cast shadow. Transparent background.",
+      "size": {
+        "width": 176,
+        "height": 176
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/unknown.png"
+      },
+      "animations": {}
+    },
+    {
+      "id": "99a5a2e3-2b99-421b-aa07-4dd7f99a3460",
+      "name": null,
+      "prompt": "A single large deciduous tree for a top-down 2D pixel art game, viewed in a high three-quarter / RPG Maker-style overhead angle. The tree has a broad, rounded, full canopy made of clustered leaf masses rather than individual leaves. The foliage is dense and layered, with soft uneven edges and a natural silhouette, not perfectly symmetrical. The leaf color is muted green with a few simple value steps, giving volume without becoming overly detailed or painterly.\n\nThe trunk is thick and sturdy, splitting into a few large visible branches that disappear into the canopy. The bark is medium brown with slightly darker brown shading and subtle pixel texture, but still simplified to match a 16-bit style. The roots spread outward at the base in a visible, stylized way, giving the tree a grounded, ancient look.\n\nOverall style: true 16-bit pixel art, readable and clean, slightly detailed but not overly painterly, consistent with a moody RPG Maker horror/adventure game. The tree should feel natural and organic, suitable for a serious, atmospheric forest scene. Transparent background. No baked lighting, no cast shadow, no glow.",
+      "size": {
+        "width": 256,
+        "height": 256
+      },
+      "directions": 1,
+      "view": "low top-down",
+      "rotations": {
+        "unknown": "rotations/unknown.png"
+      },
+      "animations": {}
+    }
+  ],
+  "groups": [
+    {
+      "group_id": null,
+      "folder": "objects/Top-down_2D_pixel_art_asset_fo",
+      "objects": [
+        {
+          "id": "2274aea8-6108-47bd-96a5-889f1dc46786",
+          "name": null,
+          "prompt": "Top-down 2D pixel art asset for a narrative indie game, RPG Maker horror/mystery style, true 16-bit fidelity, crisp pixel edges, limited muted palette, 2\u20133 shading steps per surface, no smooth gradients, no painterly rendering, no heavy anti-aliasing. A healthy living tree for an Eden-like forest: broad rounded green canopy made of clustered leaf masses, dense but readable, natural uneven silhouette, not perfectly symmetrical. Thick warm-brown trunk visible below the canopy, splitting into a few simple branches, with subtle exposed roots at the base. The tree should feel alive, peaceful, ancient, and natural, suitable for a beautiful sunlit forest before the chase becomes frightening. High three-quarter top-down view, consistent with RPG Maker overworld assets. Neutral flat daylight base lighting only, no baked sunset, no nighttime shading, no glow, no cast shadow. Transparent background.",
+          "size": {
+            "width": 176,
+            "height": 176
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/unknown.png"
+          },
+          "animations": {}
+        }
+      ]
+    },
+    {
+      "group_id": null,
+      "folder": "objects/A_single_large_deciduous_tree",
+      "objects": [
+        {
+          "id": "99a5a2e3-2b99-421b-aa07-4dd7f99a3460",
+          "name": null,
+          "prompt": "A single large deciduous tree for a top-down 2D pixel art game, viewed in a high three-quarter / RPG Maker-style overhead angle. The tree has a broad, rounded, full canopy made of clustered leaf masses rather than individual leaves. The foliage is dense and layered, with soft uneven edges and a natural silhouette, not perfectly symmetrical. The leaf color is muted green with a few simple value steps, giving volume without becoming overly detailed or painterly.\n\nThe trunk is thick and sturdy, splitting into a few large visible branches that disappear into the canopy. The bark is medium brown with slightly darker brown shading and subtle pixel texture, but still simplified to match a 16-bit style. The roots spread outward at the base in a visible, stylized way, giving the tree a grounded, ancient look.\n\nOverall style: true 16-bit pixel art, readable and clean, slightly detailed but not overly painterly, consistent with a moody RPG Maker horror/adventure game. The tree should feel natural and organic, suitable for a serious, atmospheric forest scene. Transparent background. No baked lighting, no cast shadow, no glow.",
+          "size": {
+            "width": 256,
+            "height": 256
+          },
+          "directions": 1,
+          "view": "low top-down",
+          "rotations": {
+            "unknown": "rotations/unknown.png"
+          },
+          "animations": {}
+        }
+      ]
+    }
+  ],
+  "export_version": "1.0",
+  "export_date": "2026-07-03T01:37:27.743125"
+}
