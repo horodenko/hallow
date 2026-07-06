@@ -1,0 +1,125 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="PackedScene" path="res://scenes/IntroMap.tscn" id="1_map"]
+[ext_resource type="Script" path="res://scripts/IntroSequence.gd" id="2_seq"]
+[ext_resource type="Script" path="res://scripts/IntroCamera.gd" id="3_cam"]
+[ext_resource type="Script" path="res://scripts/LetterFadeText.gd" id="4_lft"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_zone"]
+size = Vector2(48, 1200)
+
+[node name="Intro" type="Node2D"]
+script = ExtResource("2_seq")
+
+[node name="IntroMap" parent="." instance=ExtResource("1_map")]
+
+[node name="FollowCamera" type="Camera2D" parent="."]
+position = Vector2(320, 576)
+limit_left = 0
+limit_top = 0
+limit_right = 4096
+limit_bottom = 1152
+script = ExtResource("3_cam")
+
+[node name="Zones" type="Node2D" parent="."]
+
+[node name="VoiceZone" type="Area2D" parent="Zones"]
+position = Vector2(1100, 576)
+
+[node name="Shape" type="CollisionShape2D" parent="Zones/VoiceZone"]
+shape = SubResource("RectangleShape2D_zone")
+
+[node name="AnimalZone1" type="Area2D" parent="Zones"]
+position = Vector2(1500, 576)
+
+[node name="Shape" type="CollisionShape2D" parent="Zones/AnimalZone1"]
+shape = SubResource("RectangleShape2D_zone")
+
+[node name="AnimalZone2" type="Area2D" parent="Zones"]
+position = Vector2(1950, 576)
+
+[node name="Shape" type="CollisionShape2D" parent="Zones/AnimalZone2"]
+shape = SubResource("RectangleShape2D_zone")
+
+[node name="FreezeZone" type="Area2D" parent="Zones"]
+position = Vector2(2350, 576)
+
+[node name="Shape" type="CollisionShape2D" parent="Zones/FreezeZone"]
+shape = SubResource("RectangleShape2D_zone")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="FadeRect" type="ColorRect" parent="UI"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 1)
+
+[node name="Tooltip" type="PanelContainer" parent="UI"]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -170.0
+offset_right = 170.0
+offset_top = 42.0
+grow_horizontal = 2
+
+[node name="TooltipText" type="RichTextLabel" parent="UI/Tooltip"]
+layout_mode = 2
+custom_minimum_size = Vector2(320, 0)
+bbcode_enabled = true
+fit_content = true
+theme_override_font_sizes/normal_font_size = 20
+
+[node name="Narration" type="RichTextLabel" parent="UI"]
+anchors_preset = 12
+anchor_left = 0.15
+anchor_top = 1.0
+anchor_right = 0.85
+anchor_bottom = 1.0
+offset_top = -150.0
+offset_bottom = -80.0
+grow_horizontal = 2
+grow_vertical = 0
+bbcode_enabled = true
+fit_content = true
+theme_override_font_sizes/normal_font_size = 24
+script = ExtResource("4_lft")
+centered = true
+
+[node name="DialogueBox" type="PanelContainer" parent="UI"]
+anchors_preset = 12
+anchor_left = 0.18
+anchor_top = 1.0
+anchor_right = 0.82
+anchor_bottom = 1.0
+offset_top = -190.0
+offset_bottom = -30.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Rows" type="VBoxContainer" parent="UI/DialogueBox"]
+layout_mode = 2
+
+[node name="Speaker" type="Label" parent="UI/DialogueBox/Rows"]
+layout_mode = 2
+text = "???"
+theme_override_font_sizes/font_size = 16
+
+[node name="DialogueText" type="RichTextLabel" parent="UI/DialogueBox/Rows"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 70)
+size_flags_vertical = 3
+bbcode_enabled = true
+theme_override_font_sizes/normal_font_size = 22
+script = ExtResource("4_lft")
+
+[node name="Hint" type="Label" parent="UI/DialogueBox/Rows"]
+layout_mode = 2
+modulate = Color(1, 1, 1, 0.45)
+text = "E"
+horizontal_alignment = 2
+theme_override_font_sizes/font_size = 12

@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" path="res://assets/objects/bush 1/Top-down_2D_pixel_art_asset_for_a_narra/rotations/unknown.png" id="4_sjy35"]
 [ext_resource type="Texture2D" path="res://assets/objects/trees/objects/Top-down_2D_pixel_art_asset_fo/Top-down_2D_pixel_art_asset_for_a_narrat/rotations/unknown.png" id="5_5efjr"]
 [ext_resource type="Texture2D" path="res://assets/objects/trees/objects/A_single_large_deciduous_tree/A_single_large_deciduous_tree_for_a_top-/rotations/unknown.png" id="6_u6e42"]
-[ext_resource type="Script" path="res://scripts/IntroCamera.gd" id="7_4cvu5"]
 
 [sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_ygg3l"]
 blend_mode = 3
@@ -2138,10 +2137,3 @@ position = Vector2(2048, 576)
 scale = Vector2(4, 18)
 texture = SubResource("GradientTexture2D_knji5")
 
-[node name="IntroCamera" type="Camera2D" parent="." unique_id=637476729]
-position = Vector2(2048, 576)
-limit_left = 0
-limit_top = 0
-limit_right = 4096
-limit_bottom = 1152
-script = ExtResource("7_4cvu5")

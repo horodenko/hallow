@@ -1,12 +1,21 @@
-## IntroCamera.gd — camera for the introduction sequence. The intro plays
-## pulled far back (wide framing per the reference image); normal gameplay
-## zooms in later, so the zoom level is a tunable parameter, not a hardcode.
+## IntroCamera.gd — camera for the introduction sequence. Follows a target
+## (Adam) at a close zoom, clamped to the map limits — so at the west edge
+## the camera holds still and Adam visibly walks in from the left of the
+## screen before the follow latches on. Zoom stays a tunable parameter
+## (the brief originally framed the intro pulled far back; Daniel chose a
+## close follow on 2026-07-06 — change zoom_level to revisit).
 extends Camera2D
 
-## 0.65 shows roughly 28x16 tiles at the default window size, close to the
-## reference image's framing.
-@export var pulled_back_zoom: float = 0.65
+@export var zoom_level: float = 1.8
+
+## Node the camera tracks; set from code by the intro sequence.
+var target: Node2D = null
 
 
 func _ready() -> void:
-	zoom = Vector2(pulled_back_zoom, pulled_back_zoom)
+	zoom = Vector2(zoom_level, zoom_level)
+
+
+func _process(_delta: float) -> void:
+	if target != null:
+		global_position = target.global_position
