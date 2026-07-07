@@ -1,0 +1,89 @@
+{
+  "ui_assets": [
+    {
+      "id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c",
+      "name": null,
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "template",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood.png",
+      "size": {
+        "width": 344,
+        "height": 192
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    },
+    {
+      "id": "634cd06a-3357-4121-b5fa-07e77a597030",
+      "name": "DIALOGUE BOX",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "element",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/DIALOGUE_BOX.png",
+      "size": {
+        "width": 258,
+        "height": 75
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    },
+    {
+      "id": "700f52fc-ce01-4f9b-880d-dcb8feb23749",
+      "name": "ICON BUTTON",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "element",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/ICON_BUTTON.png",
+      "size": {
+        "width": 50,
+        "height": 50
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    },
+    {
+      "id": "5dee9d61-9dc2-46cf-bf4c-8678f0fe1d67",
+      "name": "MENU BUTTON",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "element",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/MENU_BUTTON/MENU_BUTTON.png",
+      "size": {
+        "width": 114,
+        "height": 50
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    },
+    {
+      "id": "3136f004-c87d-4551-84c7-6d5e8638a4a3",
+      "name": "hover",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "state",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/MENU_BUTTON/hover.png",
+      "size": {
+        "width": 109,
+        "height": 44
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c",
+      "parent_id": "5dee9d61-9dc2-46cf-bf4c-8678f0fe1d67"
+    },
+    {
+      "id": "4d212774-f86a-4a9c-a82a-55062920257f",
+      "name": "GOOD DEEDS BAR",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "element",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/GOOD_DEEDS_BAR.png",
+      "size": {
+        "width": 222,
+        "height": 29
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    },
+    {
+      "id": "9ceefced-f40b-422e-bf40-2f571f4bc501",
+      "name": "KEYBOARD BUTTON",
+      "prompt": "Create a clean pixel-art UI asset sheet for a moody top-down narrative JRPG in Godot, using the attached mockup only as layout reference. Include four reusable transparent UI elements: a rounded pause/menu button panel, a long thin Good Deeds progress bar, a small square icon button, and a large bottom dialogue box.\n\nStyle: dark melancholic retro JRPG UI, compatible with Mad Father, Ib, The Witch\u2019s House, and Undertale-style interiors, but cleaner and more grounded. Semi-transparent charcoal panels, muted blue-gray borders, soft pale gray highlights, subtle inner shadow, crisp pixel edges, 1\u20132 px outline feel, rounded but still pixel-art readable corners.\n\nElements must be empty with no text, no icons, no numbers, no letters, no labels. Text will be added later in Godot. Make each UI piece isolated on a transparent background, easy to slice or use as 9-slice/nine-patch UI. Keep the design minimal, readable, and not modern glossy.\n\nInclude subtle variants: normal button, hover/selected button, empty progress bar frame, filled progress bar version, icon slot frame, dialogue box frame. No characters, no objects, no decorative fantasy ornaments, no bright neon colors, no complex patterns, no grid, no watermark, no mockup labels, no screenshots, no full game scene.\n\nOn the keyboard button, no need to write any letters.",
+      "kind": "element",
+      "file": "Create_a_clean_pixel-art_UI_asset_sheet_for_a_mood/elements/KEYBOARD_BUTTON.png",
+      "size": {
+        "width": 39,
+        "height": 39
+      },
+      "group_id": "1c2055a7-4cf8-4cc2-aa87-02243f49761c"
+    }
+  ]
+}
