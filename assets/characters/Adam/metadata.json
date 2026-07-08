@@ -3,147 +3,40 @@
   "states": [
     {
       "character": {
-        "id": "79d7c08a-c5f7-4ed1-b482-d86c0a58bb6b",
-        "name": "Adam",
-        "prompt": "A small humanoid figure rendered as a completely featureless black silhouette. The figure is not a person wearing black clothing\u2014it is literally a living shadow. Pure near-black with no visible clothing, no skin, no hair texture, no eyes, no face, no mouth, no nose, no ears, no fingers, no anatomical detail, no muscle definition, no accessories, no outline details, and no visible fabric. The only readable information is a simple masculine human silhouette with a head, torso, arms, and legs.\n\nThe silhouette should look like a flat absence of light rather than a detailed character. It is intentionally anonymous and indistinct, like a moving shadow cast into the world. The edges should remain soft and slightly irregular, but the interior should be uniformly dark.\n\nDepict the figure moving urgently through the Garden of Eden at dusk in a top-down RPG Maker-style perspective. Small chibi overworld proportions consistent with the rest of the game, but with absolutely no internal detail\u2014only the silhouette itself. The figure should feel mysterious, archetypal, and symbolic, never monster-like, never demonic, never wearing clothes or armor. It should simply read as \"a man-shaped shadow.\"\n\nDo not generate clothing, armor, robes, capes, belts, boots, gloves, facial features, eyes, mouth, nose, hair strands, skin, muscles, jewelry, weapons, textures, highlights, wrinkles, folds, seams, or any visible details. The figure must be a single solid black silhouette with no readable surface information whatsoever.",
+        "id": "e0f771b0-ee93-4529-856b-da0c2e8fde6a",
+        "name": "Create a dark shadow-figure pixel-art character sprite of Adam for the introduction sequence of a moody top-down narrative JRPG. He must match Ata\u2019s overall sprite logic: compact grounded proportions, small top-down RPG character scale, simple readable silhouette, and the same general body proportion style as the game\u2019s main character. He should not be chibi, but he also should not be tall, realistic, elongated, or highly detailed. Keep the sprite compact and restrained.\n\nAdam is an adult male early-biblical figure. He has messy medium-length dark hair and a short dark beard. His face should be mostly obscured and simplified, with minimal visible features. Expression neutral and unreadable. He should appear as a dark shadowy figure, not a fully lit character. Use a very dark grayscale / charcoal palette with only subtle shading for form separation.\n\nHe wears a rough sleeveless dark tunic with a frayed hem, tied at the waist with a rope belt. He is barefoot, with bare arms and lower legs visible. Keep anatomy simple and understated. Do not overdefine muscles, facial structure, or clothing folds.\n\nGenerate him in 4 directions: south/front, west/left side, east/right side, and north/back. Neutral standing pose, standard turnaround sheet. Black or transparent background. No text, no labels, no scenery, no UI, no extra objects.\n\nStyle: minimalist moody pixel art, low-contrast shadow figure, subtle grayscale shading, clean silhouette, compact proportions, simple sprite readability, consistent with a small narrative JRPG character.",
+        "prompt": "Create a dark shadow-figure pixel-art character sprite of Adam for the introduction sequence of a moody top-down narrative JRPG. He must match Ata\u2019s overall sprite logic: compact grounded proportions, small top-down RPG character scale, simple readable silhouette, and the same general body proportion style as the game\u2019s main character. He should not be chibi, but he also should not be tall, realistic, elongated, or highly detailed. Keep the sprite compact and restrained.\n\nAdam is an adult male early-biblical figure. He has messy medium-length dark hair and a short dark beard. His face should be mostly obscured and simplified, with minimal visible features. Expression neutral and unreadable. He should appear as a dark shadowy figure, not a fully lit character. Use a very dark grayscale / charcoal palette with only subtle shading for form separation.\n\nHe wears a rough sleeveless dark tunic with a frayed hem, tied at the waist with a rope belt. He is barefoot, with bare arms and lower legs visible. Keep anatomy simple and understated. Do not overdefine muscles, facial structure, or clothing folds.\n\nGenerate him in 4 directions: south/front, west/left side, east/right side, and north/back. Neutral standing pose, standard turnaround sheet. Black or transparent background. No text, no labels, no scenery, no UI, no extra objects.\n\nStyle: minimalist moody pixel art, low-contrast shadow figure, subtle grayscale shading, clean silhouette, compact proportions, simple sprite readability, consistent with a small narrative JRPG character.",
         "size": {
-          "width": 120,
-          "height": 120
+          "width": 124,
+          "height": 124
         },
         "template_id": "mannequin",
         "directions": 8,
         "view": "high top-down",
-        "created_at": "2026-07-02T19:08:48.637389+00:00"
+        "created_at": "2026-07-07T18:53:47.199726+00:00"
       },
-      "folder": "Adam",
+      "folder": "Create_a_dark_shadow-figure_pixel-art_character_sp",
       "frames": {
         "rotations": {
-          "south": "Adam/rotations/south.png",
-          "south-east": "Adam/rotations/south-east.png",
-          "east": "Adam/rotations/east.png",
-          "north-east": "Adam/rotations/north-east.png",
-          "north": "Adam/rotations/north.png",
-          "north-west": "Adam/rotations/north-west.png",
-          "west": "Adam/rotations/west.png",
-          "south-west": "Adam/rotations/south-west.png"
+          "south": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south.png",
+          "south-east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south-east.png",
+          "east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/east.png",
+          "north-east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north-east.png",
+          "north": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north.png",
+          "north-west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north-west.png",
+          "west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/west.png",
+          "south-west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south-west.png"
         },
         "animations": {
-          "Walking": {
+          "The_character_takes_a_heavy_sluggish_step_forward": {
             "south": [
-              "Adam/animations/Walking/south/frame_000.png",
-              "Adam/animations/Walking/south/frame_001.png",
-              "Adam/animations/Walking/south/frame_002.png",
-              "Adam/animations/Walking/south/frame_003.png",
-              "Adam/animations/Walking/south/frame_004.png",
-              "Adam/animations/Walking/south/frame_005.png",
-              "Adam/animations/Walking/south/frame_006.png",
-              "Adam/animations/Walking/south/frame_007.png",
-              "Adam/animations/Walking/south/frame_008.png",
-              "Adam/animations/Walking/south/frame_009.png",
-              "Adam/animations/Walking/south/frame_010.png"
-            ],
-            "east": [
-              "Adam/animations/Walking/east/frame_000.png",
-              "Adam/animations/Walking/east/frame_001.png",
-              "Adam/animations/Walking/east/frame_002.png",
-              "Adam/animations/Walking/east/frame_003.png",
-              "Adam/animations/Walking/east/frame_004.png"
-            ],
-            "north": [
-              "Adam/animations/Walking/north/frame_000.png",
-              "Adam/animations/Walking/north/frame_001.png",
-              "Adam/animations/Walking/north/frame_002.png",
-              "Adam/animations/Walking/north/frame_003.png",
-              "Adam/animations/Walking/north/frame_004.png",
-              "Adam/animations/Walking/north/frame_005.png",
-              "Adam/animations/Walking/north/frame_006.png"
-            ],
-            "west": [
-              "Adam/animations/Walking/west/frame_000.png",
-              "Adam/animations/Walking/west/frame_001.png",
-              "Adam/animations/Walking/west/frame_002.png",
-              "Adam/animations/Walking/west/frame_003.png",
-              "Adam/animations/Walking/west/frame_004.png"
-            ]
-          },
-          "Running_south": {
-            "south": [
-              "Adam/animations/Running_south/south/frame_000.png",
-              "Adam/animations/Running_south/south/frame_001.png",
-              "Adam/animations/Running_south/south/frame_002.png",
-              "Adam/animations/Running_south/south/frame_003.png",
-              "Adam/animations/Running_south/south/frame_004.png",
-              "Adam/animations/Running_south/south/frame_005.png",
-              "Adam/animations/Running_south/south/frame_006.png",
-              "Adam/animations/Running_south/south/frame_007.png",
-              "Adam/animations/Running_south/south/frame_008.png"
-            ]
-          },
-          "Running_remaining_directions": {
-            "east": [
-              "Adam/animations/Running_remaining_directions/east/frame_000.png",
-              "Adam/animations/Running_remaining_directions/east/frame_001.png",
-              "Adam/animations/Running_remaining_directions/east/frame_002.png",
-              "Adam/animations/Running_remaining_directions/east/frame_003.png",
-              "Adam/animations/Running_remaining_directions/east/frame_004.png",
-              "Adam/animations/Running_remaining_directions/east/frame_005.png",
-              "Adam/animations/Running_remaining_directions/east/frame_006.png"
-            ],
-            "west": [
-              "Adam/animations/Running_remaining_directions/west/frame_000.png",
-              "Adam/animations/Running_remaining_directions/west/frame_001.png",
-              "Adam/animations/Running_remaining_directions/west/frame_002.png",
-              "Adam/animations/Running_remaining_directions/west/frame_003.png",
-              "Adam/animations/Running_remaining_directions/west/frame_004.png",
-              "Adam/animations/Running_remaining_directions/west/frame_005.png",
-              "Adam/animations/Running_remaining_directions/west/frame_006.png"
-            ],
-            "north": [
-              "Adam/animations/Running_remaining_directions/north/frame_000.png",
-              "Adam/animations/Running_remaining_directions/north/frame_001.png",
-              "Adam/animations/Running_remaining_directions/north/frame_002.png",
-              "Adam/animations/Running_remaining_directions/north/frame_003.png",
-              "Adam/animations/Running_remaining_directions/north/frame_004.png",
-              "Adam/animations/Running_remaining_directions/north/frame_005.png",
-              "Adam/animations/Running_remaining_directions/north/frame_006.png"
-            ]
-          },
-          "Idle": {
-            "east": [
-              "Adam/animations/Idle/east/frame_000.png",
-              "Adam/animations/Idle/east/frame_001.png",
-              "Adam/animations/Idle/east/frame_002.png",
-              "Adam/animations/Idle/east/frame_003.png",
-              "Adam/animations/Idle/east/frame_004.png",
-              "Adam/animations/Idle/east/frame_005.png",
-              "Adam/animations/Idle/east/frame_006.png"
-            ],
-            "west": [
-              "Adam/animations/Idle/west/frame_000.png",
-              "Adam/animations/Idle/west/frame_001.png",
-              "Adam/animations/Idle/west/frame_002.png",
-              "Adam/animations/Idle/west/frame_003.png",
-              "Adam/animations/Idle/west/frame_004.png",
-              "Adam/animations/Idle/west/frame_005.png",
-              "Adam/animations/Idle/west/frame_006.png"
-            ],
-            "south": [
-              "Adam/animations/Idle/south/frame_000.png",
-              "Adam/animations/Idle/south/frame_001.png",
-              "Adam/animations/Idle/south/frame_002.png",
-              "Adam/animations/Idle/south/frame_003.png",
-              "Adam/animations/Idle/south/frame_004.png",
-              "Adam/animations/Idle/south/frame_005.png",
-              "Adam/animations/Idle/south/frame_006.png"
-            ],
-            "north": [
-              "Adam/animations/Idle/north/frame_000.png",
-              "Adam/animations/Idle/north/frame_001.png",
-              "Adam/animations/Idle/north/frame_002.png",
-              "Adam/animations/Idle/north/frame_003.png",
-              "Adam/animations/Idle/north/frame_004.png",
-              "Adam/animations/Idle/north/frame_005.png",
-              "Adam/animations/Idle/north/frame_006.png"
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_000.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_001.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_002.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_003.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_004.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_005.png",
+              "Create_a_dark_shadow-figure_pixel-art_character_sp/animations/The_character_takes_a_heavy_sluggish_step_forward/south/frame_006.png"
             ]
           }
         }
@@ -151,5 +44,5 @@
     }
   ],
   "export_version": "3.0",
-  "export_date": "2026-07-03T01:29:43.131313"
+  "export_date": "2026-07-08T12:09:24.878754"
 }

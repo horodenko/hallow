@@ -1,0 +1,36 @@
+{
+  "group_id": null,
+  "states": [
+    {
+      "character": {
+        "id": "5dc345e4-7596-4d8d-bcfa-a3c7d5d23782",
+        "name": "Create a dark shadow-figure pixel-art character sprite of Eve for the introduction sequence of a moody top-down narrative JRPG. She must match Ata\u2019s overall sprite logic: compact grounded proportions, small top-down RPG character scale, simple readable silhouette, and the same general body proportion style as the game\u2019s main character. She should not be chibi, but she also should not be tall, realistic, elongated, or highly detailed. Keep the sprite compact and restrained.\n\nEve is an adult female early-biblical figure. She has long dark messy hair falling past her shoulders. Her face should be mostly obscured and simplified, with minimal visible features. Expression neutral and unreadable. She should appear as a dark shadowy figure, not a fully lit character. Use a very dark grayscale / charcoal palette with only subtle shading for form separation.\n\nShe should feel feminine through a slightly softer silhouette and subtle body shape, but remain modest, simple, and shadowed. She wears a rough dark sleeveless dress or tunic with a frayed hem, tied at the waist with a rope belt. She is barefoot, with bare arms and lower legs visible. Keep anatomy simple and understated. Do not overdefine facial features, body contours, or clothing folds.\n\nGenerate her in 4 directions: south/front, west/left side, east/right side, and north/back. Neutral standing pose, standard turnaround sheet. Black or transparent background. No text, no labels, no scenery, no UI, no extra objects.\n\nStyle: minimalist moody pixel art, low-contrast shadow figure, subtle grayscale shading, clean silhouette, compact proportions, simple sprite readability, consistent with a small narrative JRPG character.",
+        "prompt": "Create a dark shadow-figure pixel-art character sprite of Eve for the introduction sequence of a moody top-down narrative JRPG. She must match Ata\u2019s overall sprite logic: compact grounded proportions, small top-down RPG character scale, simple readable silhouette, and the same general body proportion style as the game\u2019s main character. She should not be chibi, but she also should not be tall, realistic, elongated, or highly detailed. Keep the sprite compact and restrained.\n\nEve is an adult female early-biblical figure. She has long dark messy hair falling past her shoulders. Her face should be mostly obscured and simplified, with minimal visible features. Expression neutral and unreadable. She should appear as a dark shadowy figure, not a fully lit character. Use a very dark grayscale / charcoal palette with only subtle shading for form separation.\n\nShe should feel feminine through a slightly softer silhouette and subtle body shape, but remain modest, simple, and shadowed. She wears a rough dark sleeveless dress or tunic with a frayed hem, tied at the waist with a rope belt. She is barefoot, with bare arms and lower legs visible. Keep anatomy simple and understated. Do not overdefine facial features, body contours, or clothing folds.\n\nGenerate her in 4 directions: south/front, west/left side, east/right side, and north/back. Neutral standing pose, standard turnaround sheet. Black or transparent background. No text, no labels, no scenery, no UI, no extra objects.\n\nStyle: minimalist moody pixel art, low-contrast shadow figure, subtle grayscale shading, clean silhouette, compact proportions, simple sprite readability, consistent with a small narrative JRPG character.",
+        "size": {
+          "width": 120,
+          "height": 120
+        },
+        "template_id": "mannequin",
+        "directions": 8,
+        "view": "high top-down",
+        "created_at": "2026-07-07T18:55:30.369959+00:00"
+      },
+      "folder": "Create_a_dark_shadow-figure_pixel-art_character_sp",
+      "frames": {
+        "rotations": {
+          "south": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south.png",
+          "south-east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south-east.png",
+          "east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/east.png",
+          "north-east": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north-east.png",
+          "north": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north.png",
+          "north-west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/north-west.png",
+          "west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/west.png",
+          "south-west": "Create_a_dark_shadow-figure_pixel-art_character_sp/rotations/south-west.png"
+        },
+        "animations": {}
+      }
+    }
+  ],
+  "export_version": "3.0",
+  "export_date": "2026-07-08T12:09:31.787093"
+}
